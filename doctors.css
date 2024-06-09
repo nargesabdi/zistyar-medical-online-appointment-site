@@ -1,0 +1,4089 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+     
+  }
+  
+  
+  .main-container {
+    overflow: hidden;
+   
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  .css-opneke{--Icon-margin: initial;
+    --Icon-color: currentColor;
+    --Icon-fontSize: var(--joy-fontSize-xl);
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    --Button-gap: 0.5rem;
+    min-height: var(--Button-minHeight, 2.25rem);
+    font-size: var(--joy-fontSize-sm);
+    padding-block: var(--Button-paddingBlock, 0.375rem);
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: var(--Button-radius, var(--joy-radius-sm));
+    margin: var(--Button-margin);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: var(--joy-fontFamily-body);
+    font-weight: var(--joy-fontWeight-lg);
+    line-height: var(--joy-lineHeight-md);
+    --variant-borderWidth: 0px;
+    color: var(--variant-solidColor, var(--joy-palette-primary-solidColor, var(--joy-palette-common-white, #FFF)));
+    background-color: var(--variant-solidBg, var(--joy-palette-primary-solidBg, var(--joy-palette-primary-500, #0B6BCB)));
+    min-height: 32px;
+    max-height: 48px;
+    -webkit-transition: 50ms;
+    transition: 50ms;
+    background-color: transparent;
+    color: #039319;
+    border: 1px solid currentColor;
+    height: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    padding-left: 12px;
+    direction: rtl;
+}
+.css-16evcoq {
+    font-weight: 600;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: vazir;
+    font-size: 20px;
+    top:0;
+
+  }
+  .navbar-nav{
+    align-items: center;
+    margin-right: 70px;
+   }
+ 
+  
+   .navbar-nav a{
+     font-size: 15px;
+     color: #7b7c7b;
+     direction: rtl;
+     position: relative;
+     left: 0;
+     top: 2px;
+     margin-right: 40px; 
+   
+ 
+ }
+  .w-100{
+    height: 8vh;
+    direction: rtl;
+    position: relative;
+    width: 10px;
+    top: 0;
+    left: 0;
+    background:
+      no-repeat center;
+    background-size: cover;
+    z-index: 212;
+}
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 4199px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 1440px;
+    margin: 0 0 0 0;
+    z-index: 207;
+    overflow: hidden auto;
+  }
+  .group {
+    flex-shrink: 0;
+    position: relative;
+    width: 1440px;
+    height: 97px;
+    z-index: 208;
+  }
+  .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    top: 0;
+    left: 0;
+    background: #fffdfd;
+    z-index: 209;
+    border-radius: 0 0 10px 10px;
+  }
+  .group-1 {
+    position: absolute;
+    width: 1354px;
+    height: 92px;
+    top: 5px;
+    left: 46px;
+    z-index: 210;
+  }
+  .frame-2 {
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 0;
+    left: 1180px;
+    z-index: 211;
+  }
+  /* .untitled {
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/007dd99375a8bbc0be17a59e9a82ac42a24aa57e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 212;
+  } */
+  .mingcute-user-line {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 20px;
+    left: 29.718px;
+    z-index: 213;
+    overflow: hidden;
+  }
+  .group-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/14ae25fd-e90f-4c66-9b44-fb0d9a812b96.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 214;
+  }
+  .frame-4 {
+    position: absolute;
+    width: 864px;
+    height: 24px;
+    top: 34px;
+    left: 50%;
+    transform: translate(-50.35%, 0);
+    z-index: 216;
+  }
+  .magazine-salamat {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 0;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 217;
+  }
+  .khadamat-peze-shki-dar-mahal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 137px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 218;
+  }
+  .marakez-darmani {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 343px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 219;
+  }
+  .takhass-ha {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 473px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 220;
+  }
+  .moshavere-online-peze-shki {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 592px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 221;
+  }
+  .nobat-dehi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 788px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 222;
+  }
+  .less-than {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 35.834px;
+    height: 27.125px;
+    top: 37.226px;
+    left: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-92.08deg);
+    z-index: 215;
+  }
+  .flex-row-eaa {
+    position: relative;
+    width: 1336px;
+    height: 71px;
+    margin: 11px 0 0 52px;
+    z-index: 6;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 1336px;
+    height: 60px;
+    top: 0;
+    left: 50%;
+    background: #ffffff;
+    border: 0.5px solid #48af45;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    border-radius: 100px;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+  }
+  .fa-solid{
+    font-size: 24px;
+    color: #077507;
+  }
+  .icon-park-outline-search {
+    position:absolute;
+    width: 41px;
+    height: 49px;
+    top: 8.5px;
+    left: 1272.5px;
+    z-index: 2;
+    overflow: hidden;
+   
+  
+  }
+  .group-6 {
+    position: relative;
+    width: 38.493px;
+    height: 32.208px;
+    margin: 3.417px 0 0 4.083px;
+    background: url(./assets/images/98469f6e-4b3a-4b18-84dd-264ec9d76de8.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 3;
+  }
+  .vector {
+    position: absolute;
+    width: 2.62%;
+    height: 66.67%;
+    top: 14.17%;
+    left: 1.76%;
+    background: url(./assets/images/f2f387bd-42ae-420b-8633-c8c15a4eff52.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 4;
+  }
+  .jostojo-shahr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 167px;
+    height: 55px;
+    top: 16px;
+    right: 1145px;
+    color: rgba(0, 0, 0, 0.42);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    z-index: 6;
+  }
+  .jostojo-nam-bimari-peze-shk-takhass-bimarstan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 918px;
+    height: 55px;
+    top: 16px;
+    right: 76px;
+    color: rgba(0, 0, 0, 0.42);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    z-index: 5;
+  }
+  .flex-row {
+    position: relative;
+    width: 772px;
+    height: 28px;
+    margin: 17px 0 0 614px;
+    z-index: 9;
+  }
+  .filters-nobat-dehi-interneti-behtarin-doctor-ha-iran {
+    position: absolute;
+    width: 752px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    font-family: vazir, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 9;
+    direction: rtl;
+  }
+  .filters {
+    position: relative;
+    color: #000000;
+    font-family: B Yekan + var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    margin-right: 0;
+  }
+  .nbsp {
+    position: relative;
+    color: #545353;
+    font-family: B Yekan + var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+  }
+  .nbsp-7 {
+    position: relative;
+    color: #545353;
+    font-family: B Yekan + var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+  }
+  .nobat-dehi-interneti-behtarin-doctor-ha-iran {
+    position: relative;
+    color: #0c0c0c;
+    font-family: B Yekan + var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    direction: rtl;
+    margin-right: 360px;
+  }
+  .hugeicons-filter {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 748px;
+    z-index: 7;
+    overflow: hidden;
+  }
+  .vector-8 {
+    position: relative;
+    width: 19.5px;
+    height: 19.5px;
+    margin: 2.25px 0 0 2.25px;
+    background: url(./assets/images/afb8a8e8-3d7f-47ab-8ad2-39c2134bec03.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+  }
+  .flex-row-d {
+    position: relative;
+    width: 1067px;
+    height: 31px;
+    margin: 19px 0 0 307px;
+    z-index: 13;
+  }
+  .sort-by-pishfarz-mahboub-tarin-nazdik-tarin-nobat-azad-bishtar-nobat-mofe {
+    position: absolute;
+    width: 626px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .sort-by {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .pishfarz {
+    position: relative;
+    color: #077507;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .sort-by-9 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .mahboub-tarin-nazdik-tarin-nobat-azad-bishtar-nobat-mofe {
+    position: relative;
+    color: #666766;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .takhass-va-foq-takhass {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 0;
+    left: 933px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .system-uicons-filtering {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 3px;
+    left: 630px;
+    z-index: 11;
+    overflow: hidden;
+  }
+  .vector-a {
+    position: relative;
+    width: 17px;
+    height: 15px;
+    margin: 3.5px 0 0 2px;
+    background: url(./assets/images/80686e78-c751-4195-b53d-05ee5004d134.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .flex-row-fbf {
+    position: relative;
+    width: 1176px;
+    height: 37px;
+    margin: 171px 0 0 198px;
+    z-index: 58;
+  }
+  .regroup {
+    position: absolute;
+    width: 298px;
+    height: 37px;
+    top: 0;
+    left: 878px;
+    z-index: 25;
+  }
+  .mahalle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 25;
+  }
+  .shahr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 0;
+    left: 164px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .pasokh-peze-shk-online-amade-moshavere-avvalin-nobat-kamtar-az-yek-saat-digar {
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 10px;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 58;
+  }
+  .pasokh-peze-shk {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-amade-moshavere {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .pasokh-peze-shk-b {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-amade-moshavere-c {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-ba {
+    position: relative;
+    width: 1272px;
+    height: 66px;
+    margin: -6px 0 0 102px;
+    z-index: 49;
+  }
+  .regroup-d {
+    position: absolute;
+    width: 298px;
+    height: 66px;
+    top: 0;
+    left: 974px;
+    z-index: 26;
+  }
+  .rectangle-e {
+    position: absolute;
+    width: 134px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 26;
+    border-radius: 10px;
+  }
+  .mahalle-f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 82px;
+    height: 38px;
+    top: 7.5px;
+    left: 44.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 27;
+  }
+  .less-than-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 15.736px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 2.387px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.92deg);
+    z-index: 28;
+  }
+  .rectangle-11 {
+    position: absolute;
+    width: 134px;
+    height: 46px;
+    top: 0;
+    left: 164px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 22;
+    border-radius: 10px;
+  }
+  .shahr-12 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 82px;
+    height: 38px;
+    top: 7.5px;
+    left: 44.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 23;
+  }
+  .less-than-13 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 15.736px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 2.387px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.92deg);
+    z-index: 24;
+  }
+  .rectangle-14 {
+    position: absolute;
+    width: 410px;
+    height: 46px;
+    top: 20px;
+    left: 0;
+    background: #1ba81b;
+    z-index: 49;
+    border-radius: 10px;
+  }
+  .nobat-dehi-interneti {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 60;
+  }
+  .rectangle-15 {
+    position: absolute;
+    width: 410px;
+    height: 46px;
+    top: 20px;
+    left: 424px;
+    background: #1ba81b;
+    z-index: 48;
+    border-radius: 10px;
+  }
+  .vizit-online {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 59;
+  }
+  .bime {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 134px;
+    height: 31px;
+    margin: 9px 0 0 1240px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .flex-row-edfd {
+    position: relative;
+    width: 1070px;
+    height: 116px;
+    margin: 0 0 0 304px;
+    z-index: 68;
+  }
+  .rectangle-16 {
+    position: absolute;
+    width: 298px;
+    height: 46px;
+    top: 0;
+    left: 772px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 18;
+    border-radius: 10px;
+  }
+  .bime-mored-nazar-ra-entekhab-konid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 182px;
+    height: 38px;
+    top: 7.5px;
+    left: 100.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 19;
+  }
+  .less-than-17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 34.995px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 5.92px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.83deg);
+    z-index: 20;
+  }
+  .nima-dastgir-motakhass-bimari-ha-ye-afoniy-bord-takhass-bimari-ha-ye-afoniy-balaghin-va-atfal-az-daneshgah-shahid-beheshti {
+    position: absolute;
+    width: 559px;
+    height: 54px;
+    top: 23px;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 65;
+  }
+  .nima-dastgir {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .motakhass-bimari-ha-ye-afoniy-bord-takhass-bimari-ha-ye-afoniy-balaghin-va-atfal-az-daneshgah-shahid-beheshti {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 26px;
+    left: 566px;
+    background: url(./assets/images/ec8a78d3-1dee-4bd2-9e04-229359dccaa5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 64;
+  }
+  .gender-doctor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 75px;
+    left: 936px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 30;
+  }
+  .solar-like-outline {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 79px;
+    left: 537px;
+    z-index: 66;
+    overflow: hidden;
+  }
+  .vector-18 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/7c46886a-c255-40e5-ae1a-6da7d09fe392.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 67;
+  }
+  .percentage {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 83px;
+    left: 425px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 68;
+  }
+  .percentage-text {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .comment-text {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-19 {
+    position: relative;
+    width: 298px;
+    height: 26px;
+    margin: -7px 0 0 1076px;
+    z-index: 46;
+  }
+  .gender-selection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 276px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  .ellipse {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    left: 50px;
+    background: url(./assets/images/ea8f8793-8641-4ed9-95c7-40bd4153ec03.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 45;
+    border-radius: 50%;
+  }
+  .ellipse-1a {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    left: 153px;
+    background: url(./assets/images/63e76148-add8-4ddc-9c8b-309f15cf619d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 44;
+    border-radius: 50%;
+  }
+  .ellipse-1b {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    left: 281px;
+    background: url(./assets/images/6d278207-9be5-4850-8768-54d67a2b8e1d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 42;
+    border-radius: 50%;
+  }
+  .ellipse-1c {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 10px;
+    left: 286px;
+    background: url(./assets/images/c5fa3fc4-7b7a-44f2-8896-9e13a25951e0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 43;
+    border-radius: 50%;
+  }
+  .flex-row-ffa {
+    position: relative;
+    width: 306px;
+    height: 32px;
+    margin: -3px 0 0 631px;
+    z-index: 71;
+  }
+  .location-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 278px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 71;
+  }
+  .location-icon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 4px;
+    left: 278px;
+    z-index: 69;
+    overflow: hidden;
+  }
+  .group-1d {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/6466b2c1-a54a-4ddd-b5df-9a7d3a036fba.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 70;
+  }
+  .education-level {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 134px;
+    height: 31px;
+    margin: 106px 0 0 1240px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .flex-row-1e {
+    position: relative;
+    width: 972px;
+    height: 126px;
+    margin: 0 0 0 402px;
+    z-index: 82;
+  }
+  .rectangle-1f {
+    position: absolute;
+    width: 298px;
+    height: 46px;
+    top: 0;
+    left: 674px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 39;
+    border-radius: 10px;
+  }
+  .education-selection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 216px;
+    height: 38px;
+    top: 7.5px;
+    left: 66.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 40;
+  }
+  .back-arrow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 34.995px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 5.92px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.83deg);
+    z-index: 41;
+  }
+  .doctor-info {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 33px;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 79;
+  }
+  .doctor-name {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-details {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-20 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 36px;
+    left: 468px;
+    background: url(./assets/images/602a7654-8a0f-48d5-ae22-d4b670329a79.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 78;
+  }
+  .solar-like-outline-21 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 89px;
+    left: 439px;
+    z-index: 80;
+    overflow: hidden;
+  }
+  .vector-22 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/0146eb07-943f-4904-92ea-ce11734fe012.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 81;
+  }
+  .percentage-23 {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 93px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 82;
+  }
+  .percentage-text-24 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .comment-text-25 {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-fe {
+    position: relative;
+    width: 565px;
+    height: 30px;
+    margin: 18px 0 0 372px;
+    z-index: 85;
+  }
+  .location-text-26 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 537px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 85;
+  }
+  .location-icon-27 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 2px;
+    left: 537px;
+    z-index: 83;
+    overflow: hidden;
+  }
+  .group-28 {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/8cc3dd56-96b8-447e-b3a2-772851b55e02.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 84;
+  }
+  .doctor-response {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 86;
+  }
+  .response-text {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .response-text-29 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-2a {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-2b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 77;
+  }
+  .rectangle-2c {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 77;
+    border-radius: 10px;
+  }
+  .online-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 88;
+  }
+  .online-visit {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 76;
+    border-radius: 10px;
+  }
+  .flex-row-ec {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 87;
+  }
+  .doctor-info-2d {
+    position: relative;
+    width: 551px;
+    height: 93px;
+    margin: 63px 0 0 402px;
+    z-index: 96;
+  }
+  .doctor-name-2e {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 93;
+  }
+  .doctor-details-2f {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-details-30 {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-31 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 3px;
+    left: 468px;
+    background: url(./assets/images/9c19dfc7-49ee-4e76-bc83-76e9fe1a5333.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 92;
+  }
+  .solar-like-outline-32 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 56px;
+    left: 439px;
+    z-index: 94;
+    overflow: hidden;
+  }
+  .vector-33 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/42fdeab8-5559-4e6c-9f41-fb8d046b30a7.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 95;
+  }
+  .percentage-34 {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 60px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 96;
+  }
+  .percentage-text-35 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .comment-text-36 {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-f {
+    position: relative;
+    width: 434px;
+    height: 31px;
+    margin: 17px 0 0 503px;
+    z-index: 99;
+  }
+  .location-text-37 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 406px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 99;
+  }
+  .location-icon-38 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 3px;
+    left: 406px;
+    z-index: 97;
+    overflow: hidden;
+  }
+  .group-39 {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/7f3f85ed-e953-48f9-b8e7-90c58d94ff5b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 98;
+  }
+  .doctor-response-3a {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 100;
+  }
+  .response-text-3b {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-3c {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .response-text-3d {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-3e {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-f-3f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 91;
+  }
+  .rectangle-40 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 91;
+    border-radius: 10px;
+  }
+  .online-appointment-41 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 102;
+  }
+  .online-visit-42 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 90;
+    border-radius: 10px;
+  }
+  .flex-row-fe-43 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 101;
+  }
+  .section-f {
+    position: relative;
+    width: 551px;
+    height: 93px;
+    margin: 81px 0 0 402px;
+    z-index: 110;
+  }
+  .specialist-ultrasound-radiology {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 107;
+  }
+  .safura-taher {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .ultrasound-radiology-specialist {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-44 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 3px;
+    left: 468px;
+    background: url(./assets/images/d5f8f965-fd30-468d-9cf4-4e9d58edc604.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 106;
+  }
+  .solar-like-outline-45 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 56px;
+    left: 439px;
+    z-index: 108;
+    overflow: hidden;
+  }
+  .vector-46 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/6c1a909f-9aed-42a7-abf6-9907ed1e42f9.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 109;
+  }
+  .percentage-47 {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 60px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 110;
+  }
+  .text-44 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .opinion {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-bf {
+    position: relative;
+    width: 763px;
+    height: 32px;
+    margin: 16px 0 0 174px;
+    z-index: 113;
+  }
+  .location-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 113;
+  }
+  .location-icon-48 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 4px;
+    left: 735px;
+    z-index: 111;
+    overflow: hidden;
+  }
+  .group-49 {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/bafea180-998f-48ae-90e8-308109866c1e.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 112;
+  }
+  .doctor-response-4a {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 114;
+  }
+  .doctor-response-4b {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-4c {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-4d {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-4e {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-ba-4f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 105;
+  }
+  .rectangle-50 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 105;
+    border-radius: 10px;
+  }
+  .online-appointment-51 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 116;
+  }
+  .rectangle-52 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 104;
+    border-radius: 10px;
+  }
+  .online-visit-53 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 115;
+  }
+  .flex-row-54 {
+    position: relative;
+    width: 649px;
+    height: 93px;
+    margin: 63px 0 0 304px;
+    z-index: 124;
+  }
+  .infectious-disease-specialist {
+    position: absolute;
+    width: 559px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 121;
+  }
+  .nima-dastgir-55 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .infectious-disease-specialist-56 {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-57 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 3px;
+    left: 566px;
+    background: url(./assets/images/d7ae1fb6-c661-422b-8dc1-7274e20fada3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 120;
+  }
+  .solar-like-outline-58 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 56px;
+    left: 537px;
+    z-index: 122;
+    overflow: hidden;
+  }
+  .vector-59 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/385c1079-e533-4cb5-8313-534a049f0c4b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 123;
+  }
+  .percentage-5a {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 60px;
+    left: 425px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 124;
+  }
+  .text-4f {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .opinion-5b {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-e {
+    position: relative;
+    width: 306px;
+    height: 32px;
+    margin: 16px 0 0 631px;
+    z-index: 127;
+  }
+  .location-details-5c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 278px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 127;
+  }
+  .location-icon-5d {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 4px;
+    left: 278px;
+    z-index: 125;
+    overflow: hidden;
+  }
+  .group-5e {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/e576fd3e-470f-47ed-8c7c-30c4ad62a021.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 126;
+  }
+  .doctor-response-5f {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 128;
+  }
+  .doctor-response-60 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-61 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-62 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-63 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-f-64 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 119;
+  }
+  .rectangle-65 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 119;
+    border-radius: 10px;
+  }
+  .online-appointment-66 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 130;
+  }
+  .rectangle-67 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 118;
+    border-radius: 10px;
+  }
+  .online-visit-68 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 129;
+  }
+  .flex-row-d-69 {
+    position: relative;
+    width: 551px;
+    height: 93px;
+    margin: 63px 0 0 402px;
+    z-index: 138;
+  }
+  .general-practitioner {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 135;
+  }
+  .mohammad-javad-taheri {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .general-practitioner-6a {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-6b {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 3px;
+    left: 468px;
+    background: url(./assets/images/46364825-6919-4935-87ed-769a91208182.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 134;
+  }
+  .solar-like-outline-6c {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 56px;
+    left: 439px;
+    z-index: 136;
+    overflow: hidden;
+  }
+  .vector-6d {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/015c7ccc-1572-4162-b88b-db052ebbef35.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 137;
+  }
+  .percentage-6e {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 60px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 138;
+  }
+  .text-5a {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .opinion-6f {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-ca {
+    position: relative;
+    width: 565px;
+    height: 30px;
+    margin: 18px 0 0 372px;
+    z-index: 141;
+  }
+  .location-details-70 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 537px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 141;
+  }
+  .location-icon-71 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 2px;
+    left: 537px;
+    z-index: 139;
+    overflow: hidden;
+  }
+  .group-72 {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/850413f4-763e-44ac-beb9-86fc99fc72c3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 140;
+  }
+  .doctor-response-73 {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 142;
+  }
+  .doctor-response-74 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-75 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-76 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-77 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-ad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 133;
+  }
+  .rectangle-78 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 133;
+    border-radius: 10px;
+  }
+  .online-appointment-79 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 144;
+  }
+  .rectangle-7a {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 132;
+    border-radius: 10px;
+  }
+  .visit-online {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 143;
+  }
+  .flex-row-7b {
+    position: relative;
+    width: 551px;
+    height: 93px;
+    margin: 63px 0 0 402px;
+    z-index: 180;
+  }
+  .fateme-bagheri {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 177;
+  }
+  .fateme-bagheri-7c {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .pharmacist-doctor {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-7d {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 3px;
+    left: 468px;
+    background: url(./assets/images/2dd77445-d390-4ce0-95f5-a4b3e40d38e2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 176;
+  }
+  .like-outline {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 56px;
+    left: 439px;
+    z-index: 178;
+    overflow: hidden;
+  }
+  .vector-7e {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/018499b9-ad40-4356-8f61-3ea06b9ff814.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 179;
+  }
+  .percentage-7f {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 60px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 180;
+  }
+  .percentage-80 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .reviews {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-ec-81 {
+    position: relative;
+    width: 434px;
+    height: 31px;
+    margin: 17px 0 0 503px;
+    z-index: 183;
+  }
+  .location-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 406px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 183;
+  }
+  .location-icon-82 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 3px;
+    left: 406px;
+    z-index: 181;
+    overflow: hidden;
+  }
+  .group-83 {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/71f6d921-6d12-4cb6-b6d5-819122b2f77a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 182;
+  }
+  .doctor-response-84 {
+    position: relative;
+    width: 735px;
+    height: 27px;
+    margin: 20px 0 0 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 184;
+  }
+  .doctor-response-85 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-86 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-87 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-88 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-89 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 834px;
+    height: 46px;
+    margin: 14px 0 0 102px;
+    z-index: 175;
+  }
+  .rectangle-8a {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 175;
+    border-radius: 10px;
+  }
+  .online-booking {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 186;
+  }
+  .visit-online-8b {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 174;
+    border-radius: 10px;
+  }
+  .flex-row-ed {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 185;
+  }
+  .rectangle-8c {
+    position: absolute;
+    width: 972px;
+    height: 113px;
+    top: 274px;
+    left: 402px;
+    z-index: 54;
+  }
+  .select-specialty {
+    position: absolute;
+    width: 298px;
+    height: 46px;
+    top: 0;
+    left: 674px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 14;
+    border-radius: 10px;
+  }
+  .button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 182px;
+    height: 38px;
+    top: 7.5px;
+    left: 100.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 15;
+  }
+  .back-arrow-8d {
+    position: absolute;
+    width: 34.995px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 5.92px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    transform: rotate(-89.83deg);
+    z-index: 16;
+  }
+  .sonography-radiology-specialist {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 20px;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 51;
+  }
+  .sonography-radiology-specialist-8e {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .sonography-radiology-specialist-8f {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .mask-group-90 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 23px;
+    left: 468px;
+    background: url(./assets/images/1470d8e1-6888-4201-8bd7-c698d0faa1ee.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 50;
+  }
+  .like-outline-91 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 65px;
+    left: 838px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 29;
+  }
+  .vector-92 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 76px;
+    left: 439px;
+    z-index: 52;
+    overflow: hidden;
+  }
+  .percentage-93 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/584916f3-1767-4c28-8c47-acc5496166a6.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 53;
+  }
+  .percentage-94 {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 80px;
+    left: 327px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 54;
+  }
+  .reviews-95 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .reviews-96 {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .flex-row-fa {
+    position: absolute;
+    width: 1200px;
+    height: 65px;
+    top: 370px;
+    left: 174px;
+    z-index: 57;
+  }
+  .rectangle-97 {
+    position: absolute;
+    width: 298px;
+    height: 46px;
+    top: 0;
+    left: 902px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 31;
+    border-radius: 10px;
+  }
+  .select-service {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 182px;
+    height: 38px;
+    top: 7.5px;
+    left: 100.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 32;
+  }
+  .back-arrow-98 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 34.995px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 5.92px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.83deg);
+    z-index: 33;
+  }
+  .location-info-99 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 33px;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .location-icon-9a {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 37px;
+    left: 735px;
+    z-index: 55;
+    overflow: hidden;
+  }
+  .group-9b {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/08f56aa1-471d-49c0-a186-63afc820df40.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 56;
+  }
+  .flex-row-eb {
+    position: absolute;
+    width: 1179px;
+    height: 77px;
+    top: 746px;
+    left: 198px;
+    z-index: 72;
+  }
+  .disease {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 31px;
+    top: 0;
+    left: 1045px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 34;
+  }
+  .doctor-response-9c {
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 20px;
+    left: 0;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 72;
+  }
+  .doctor-response-9d {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-9e {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-9f {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-a0 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .next-appointment {
+    position: absolute;
+    width: 298px;
+    height: 46px;
+    top: 31px;
+    left: 881px;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    z-index: 35;
+    border-radius: 10px;
+  }
+  .rectangle-a1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 182px;
+    height: 38px;
+    top: 7.5px;
+    left: 100.5px;
+    color: #a7a5a5;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    z-index: 36;
+  }
+  .select-disease {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 34.995px;
+    height: 25.979px;
+    top: 9.073px;
+    left: 5.92px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-89.83deg);
+    z-index: 37;
+  }
+  .back-arrow-a2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 834px;
+    height: 46px;
+    top: 807px;
+    left: 102px;
+    z-index: 63;
+  }
+  .rectangle-a3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 63;
+    border-radius: 10px;
+  }
+  .online-booking-a4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 74;
+  }
+  .rectangle-a5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 410px;
+    height: 46px;
+    background: #1ba81b;
+    z-index: 62;
+    border-radius: 10px;
+  }
+  .visit-online-a6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 73;
+  }
+  .sonography-radiology-specialist-a7 {
+    position: absolute;
+    width: 461px;
+    height: 54px;
+    top: 2788px;
+    left: 402px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 149;
+  }
+  .sonography-radiology-specialist-a8 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .sonography-radiology-specialist-a9 {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .flex-row-cd {
+    position: absolute;
+    height: 1942.41px;
+    top: 2791px;
+    right: -1px;
+    left: 0;
+    z-index: 206;
+  }
+  .mask-group-aa {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 0;
+    left: 870px;
+    background: url(./assets/images/11fb7a9d-84e0-41cd-a87c-b7336b9e20ca.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 148;
+  }
+  .vector-ab {
+    position: absolute;
+    width: 1021.107px;
+    height: 1889.41px;
+    top: 53px;
+    left: 362px;
+    background: url(./assets/images/1face8a3-2bf2-4fc3-80f3-aea53a6ec648.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 195;
+  }
+  .flex-column-f {
+    position: absolute;
+    width: 518px;
+    height: 780px;
+    top: 0px;
+    left: 73px;
+    z-index: 205;
+  }
+  .location-info-ac {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin: 57px 0 0 474px;
+    z-index: 153;
+    overflow: hidden;
+  }
+  .group-ad {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/ba39b4ec-7eaf-4751-af03-773bcd2e6e37.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 154;
+  }
+  .rectangle-ae {
+    position: relative;
+    width: 410px;
+    height: 46px;
+    margin: 61px 0 0 91px;
+    background: #1ba81b;
+    z-index: 146;
+    border-radius: 10px;
+  }
+  .visit-online-af {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 157;
+  }
+  .rectangle-b0 {
+    position: relative;
+    width: 410px;
+    height: 46px;
+    margin: 265px 0 0 91px;
+    background: #1ba81b;
+    z-index: 160;
+    border-radius: 10px;
+  }
+  .visit-online-b1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    top: 10px;
+    left: calc(50% - 44px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 171;
+  }
+  .rectangle-b2 {
+    position: relative;
+    width: 196px;
+    height: 58px;
+    margin: 51px 0 0 0;
+    background: #fafffa;
+    border: 1px solid #008000;
+    z-index: 187;
+    border-radius: 10px;
+  }
+  .show-more-results {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    top: 12px;
+    left: 30px;
+    color: #008000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 188;
+  }
+  .image {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 104px 0 0 432px;
+    background: url(./assets/images/29c98491ee23ea0ef4423f57dc8727b9280323ec.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 205;
+  }
+  .like-outline-b3 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 406px;
+    z-index: 150;
+    overflow: hidden;
+  }
+  .vector-b4 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/f98fbdea-1d51-4473-8dbe-9fc4e55cb9cd.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 151;
+  }
+  .percentage-review {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 4px;
+    left: 294px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 152;
+  }
+  .percentage-review-b5 {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .review-count {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .mask-group-b6 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 258px;
+    left: 435px;
+    background: url(./assets/images/f5755dba-5ab3-4ea2-ac02-516e92bf863f.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 162;
+  }
+  .like-outline-b7 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 311px;
+    left: 406px;
+    z-index: 164;
+    overflow: hidden;
+  }
+  .vector-b8 {
+    position: relative;
+    width: 19.5px;
+    height: 21.514px;
+    margin: 1.25px 0 0 2.25px;
+    background: url(./assets/images/95e08009-b5e6-4b4e-9c17-51c072269878.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 165;
+  }
+  .percentage-review-b9 {
+    position: absolute;
+    width: 112px;
+    height: 33px;
+    top: 315px;
+    left: 294px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 166;
+  }
+  .percentage-review-ba {
+    position: relative;
+    color: #0a750a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .review-count-bb {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+  }
+  .location-details-bc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 278px;
+    height: 27px;
+    top: 364px;
+    left: 196px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 169;
+  }
+  .location-icon-bd {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 368px;
+    left: 474px;
+    z-index: 167;
+    overflow: hidden;
+  }
+  .group-be {
+    position: relative;
+    width: 16px;
+    height: 21.388px;
+    margin: 3.333px 0 0 6px;
+    background: url(./assets/images/9135d677-574b-4f6e-a570-4d61f25d81c3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 168;
+  }
+  .image-bf {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 701px;
+    left: 920px;
+    background: url(./assets/images/216d6082c299e9c9813393b7a8c6a0cccc5aa3ab.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 204;
+  }
+  .location-details-c0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 106px;
+    left: 174px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 155;
+  }
+  .doctor-response-c1 {
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 158px;
+    left: 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 156;
+  }
+  .doctor-response-c2 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-c3 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-c4 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-c5 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .rectangle-c6 {
+    position: absolute;
+    width: 410px;
+    height: 46px;
+    top: 199px;
+    left: 102px;
+    background: #1ba81b;
+    z-index: 147;
+    border-radius: 10px;
+  }
+  .online-booking-c7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 158;
+  }
+  .doctor-details-c8 {
+    position: absolute;
+    width: 559px;
+    height: 54px;
+    top: 308px;
+    left: 304px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    z-index: 163;
+  }
+  .doctor-details-c9 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-details-ca {
+    position: relative;
+    color: #201f1f;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-cb {
+    position: absolute;
+    width: 735px;
+    height: 27px;
+    top: 469px;
+    left: 198px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 170;
+  }
+  .doctor-response-cc {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-cd {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .doctor-response-ce {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+  }
+  .online-consultation-cf {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+  }
+  .rectangle-d0 {
+    position: absolute;
+    width: 410px;
+    height: 46px;
+    top: 510px;
+    left: 102px;
+    background: #1ba81b;
+    z-index: 161;
+    border-radius: 10px;
+  }
+  .online-booking-d1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    top: 8px;
+    left: calc(50% - 65px);
+    color: #ffffff;
+    font-family: vazir, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 172;
+    margin: auto;
+  }
+  .why-zistyar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 1264px;
+    height: 40px;
+    top: 683px;
+    left: 82px;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 27px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 202;
+    overflow: hidden;
+  }
+  .image-d2 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 754px;
+    left: 357px;
+    background: url(./assets/images/9f10011bfa2bfd6d1a2ff272357419fd854d5435.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 206;
+  }
+  .insurance-coverage {
+    position: absolute;
+    width: 1206px;
+    height: 144px;
+    top: 760px;
+    left: 50%;
+    font-family: vazir, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+    transform: translate(-53.44%, 0);
+    z-index: 203;
+    margin-right: 24px;
+  }
+  .insurance-coverage-d3 {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 0px;
+  }
+  .insurance-coverage-d4 {
+    position: relative;
+    color: #3e3e3e;
+    font-family: vazir, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 0px;
+  }
+  .insurance-coverage-d5 {
+    position: relative;
+    color: #4b4b4b;
+    font-family: vazir, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 0px;
+    direction: rtl;
+  }
+  .insurance-coverage-d6 {
+    position: relative;
+    color: #4b4b4b;
+    font-family: vazir, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+    
+  }
+  .rectangle-d7 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 908px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #bcffba;
+    z-index: 9999;
+    background-size: cover;
+    
+
+  }
+  .untitled-d8 {
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 10px;
+    left: 1231px;
+    background: url(./assets/images/007dd99375a8bbc0be17a59e9a82ac42a24aa57e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 191;
+  }
+  .contact-us {
+    position: absolute;
+    width: 262px;
+    height: 381px;
+    top: 49px;
+    left: 551px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    z-index: 193;
+  }
+  .contact-us-d9 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.784px;
+    text-align: right;
+    
+  }
+  .contact-us-da {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.784px;
+    text-align: right;
+  }
+  .contact-us-db {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  .contact-us-dc {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    text-decoration: underline;
+    direction: rtl;
+  }
+  .contact-us-dd {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  .contact-us-de {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    text-decoration: underline;
+    direction: rtl;
+  }
+  .useful-links {
+    position: absolute;
+    width: 207px;
+    height: 393px;
+    top: 49px;
+    left: 214px;
+    font-family: vazir, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: justified;
+    z-index: 194;
+    direction: rtl;
+  }
+  .useful-links-df {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.784px;
+    text-align: justified;
+  }
+  .useful-links-e0 {
+    position: relative;
+    color: #000000;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: justify;
+    direction: rtl;
+  }
+  .useful-links-e1 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 448px;
+    height: 227px;
+    top: 114px;
+    left: 947px;
+    color: #3c3a3a;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    text-align: justify;
+    z-index: 201;
+    direction: rtl;
+  }
+  .location-filled {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 120px;
+    left: 821px;
+    z-index: 198;
+    overflow: hidden;
+    direction: rtl;
+  }
+  .vector-e2 {
+    position: relative;
+    width: 19.5px;
+    height: 23.691px;
+    margin: 2.25px 0 0 4.25px;
+    background: url(./assets/images/c2e01539-a7e9-4b4d-b1f7-f917ddf30b38.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 199;
+  }
+  .phone-fill {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 230px;
+    left: 823px;
+    z-index: 196;
+    overflow: hidden;
+  }
+  .vector-e3 {
+    position: relative;
+    width: 20.543px;
+    height: 20.543px;
+    margin: 3.5px 0 0 3.5px;
+    background: url(./assets/images/f059643e-589a-47c2-9e8f-74b6d8af3dd0.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 197;
+  }
+  .email-solid {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 300px;
+    left: 821px;
+    background: url(./assets/images/4a022119-9d70-4366-9bb8-2f67ab3164bb.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 200;
+    overflow: hidden;
+  }
+  .image-e4 {
+    position: absolute;
+    width: 64px;
+    height: 88px;
+    top: 380px;
+    left: 35px;
+    background: url(./assets/images/e4af9ec8114f9510afcb0b325a22ad188ebd750e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 192;
+  }
+  
