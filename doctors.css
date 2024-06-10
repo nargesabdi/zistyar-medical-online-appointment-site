@@ -432,6 +432,7 @@
     color: rgba(195, 193, 193, 0.42);
     position: relative;
     left: 0;
+    opacity: 0.6;
   }
   .form-control[placeholder="جستجوی نام بیماری ، پزشک ، تخصص ، بیمارستان"]{
     font-family: vazir;
@@ -444,6 +445,7 @@
     right: 25px;
     color: rgba(195, 193, 193, 0.42);
     position: relative;
+    opacity: 0.6;
   }
 
   .bx{
