@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>زیستیار</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazir+FD:wght@700&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazir+FD-UI:wght@500;700&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yinmar:wght@400&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="landing.css" />
     <link href="bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
   </head>
@@ -29,7 +31,7 @@
                 <a class="nav-link" href="#khadamat-peze-shki-dar-mahal">خدمات پزشکی در محل</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#marakez-darmani">مرکز درمانی</a>
+                <a class="nav-link" href="http://127.0.0.1:5500/landing.html#:~:text=%D9%85%D8%B1%D8%A7%DA%A9%D8%B2%20%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DB%8C%0A%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA,%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DA%AF%D8%A7%D9%87%0A23%20%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DA%AF%D8%A7%D9%87">مراکز درمانی</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#takhass-ha">تخصص ها</a>
@@ -38,7 +40,7 @@
                 <a class="nav-link" href="#moshavere-online-peze-shki">مشاوره آنلاین پزشکی</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contant">نوبت دهی</a>
+                <a class="nav-link" href=http://127.0.0.1:5500/doctors.html>نوبت دهی</a>
               </li>
             </ul>
             <button class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd drdr-button drdr-button-primary login-button null  css-opneke" colorvariant="primary" dssize="medium" dsvariant="outline" id="Login_click" aria-label="Login or View Profile" type="button" fdprocessedid="08x166"><span class="MuiButton-startDecorator css-zcktug"><!--$--><!--/$--><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="drdr-icon" width="32" height="32"><path d="M12 11.5A4.5 4.5 0 1 1 16.5 7a4.51 4.51 0 0 1-4.499 4.5H12zm0-8A3.5 3.5 0 1 0 15.5 7 3.5 3.5 0 0 0 12 3.5zm6 18a.5.5 0 0 1-.5-.5v-2a3.52 3.52 0 0 0-3.499-3.5H10A3.5 3.5 0 0 0 6.5 19v2a.5.5 0 0 1-1 0v-2a4.51 4.51 0 0 1 4.499-4.5H14a4.51 4.51 0 0 1 4.5 4.499V21a.5.5 0 0 1-.5.5z"></path></svg></span><div class="css-16evcoq">ورود / ثبت نام</div></button>
@@ -52,19 +54,24 @@
       </nav>
     <div class="main-container">
      <div class="flex-row-a">
-        
          <div class="untitled"></div>
       </div> 
       <div class="mesa-de-trabajo"></div>
       <div class="flex-row-bdae">
         <div class="rectangle">
-          <div class="search-icon"><div class="group"></div></div>
-          <div class="vector"></div>
+          <form action="#">
+            <div class="input-group mb-3  ">
+                <span class="input-group-text">
+                    <i class="bx bx-location-plus"></i>
+                </span>
+                <input type="text" class="form-control form-control-lg fs-6 " placeholder="جستجوی شهر">
+                  <span class="input-group-text">
+                      <i class="bx bx-search"></i>
+                  </span>
+                <input type="text" class="form-control form-control-lg fs-6" placeholder="جستجوی نام بیماری ، پزشک ، تخصص ، بیمارستان">  
         </div>
-        <span class="city-search">جستجوی شهر</span
-        ><span class="search-medical-terms"
-          >جستجوی نام بیماری ، پزشک ، تخصص ، بیمارستان و....</span
-        >
+      </div>
+      </form>
       </div>
       <div class="flex-row-cb">
         <div class="line"></div>
