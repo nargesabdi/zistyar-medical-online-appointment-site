@@ -785,6 +785,7 @@
     font-weight: 700;
     line-height: 30px;
     text-align: right;
+    direction: rtl;
   }
   .specialist-appointment {
     display: flex;

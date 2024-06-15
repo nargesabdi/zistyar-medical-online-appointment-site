@@ -1,0 +1,2258 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1521px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 1440px;
+    margin: 0 0 0 0;
+    z-index: 130;
+    overflow: hidden auto;
+  }
+  .group {
+    flex-shrink: 0;
+    position: relative;
+    width: 1440px;
+    height: 97px;
+    z-index: 131;
+  }
+  .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 132;
+    border-radius: 0 0 10px 10px;
+  }
+  .group-1 {
+    position: absolute;
+    width: 1354px;
+    height: 92px;
+    top: 5px;
+    left: 46px;
+    z-index: 133;
+  }
+  .frame-2 {
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 0;
+    left: 1180px;
+    z-index: 134;
+  }
+  .untitled {
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/007dd99375a8bbc0be17a59e9a82ac42a24aa57e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 135;
+  }
+  .mingcute-user-line {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 20px;
+    left: 29.718px;
+    z-index: 136;
+    overflow: hidden;
+  }
+  .group-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/5f6637a3-4b2e-4348-bc18-e1eac0be2acf.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 137;
+  }
+  .frame-4 {
+    position: absolute;
+    width: 864px;
+    height: 24px;
+    top: 34px;
+    left: 50%;
+    transform: translate(-50.35%, 0);
+    z-index: 139;
+  }
+  .magazine-salamat {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    z-index: 140;
+  }
+  .healthcare-services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 137px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 141;
+  }
+  .medical-centers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 343px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 142;
+  }
+  .specialties {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 473px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 143;
+  }
+  .online-medical-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 592px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 144;
+  }
+  .appointment-booking {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 788px;
+    color: #6c6b6b;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 145;
+  }
+  .arrow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 35.834px;
+    height: 27.125px;
+    top: 37.226px;
+    left: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    transform: rotate(-92.08deg);
+    z-index: 138;
+  }
+  .flex-row-af {
+    position: relative;
+    width: 366px;
+    height: 32px;
+    margin: 57px 0 0 1028px;
+    z-index: 8;
+  }
+  .la-calendar {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 334px;
+    z-index: 6;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 22px;
+    height: 23px;
+    margin: 4px 0 0 5px;
+    background: url(./assets/images/a5927c48-5627-4de0-8aea-e7cc8a6406c4.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 7;
+  }
+  .online-appointment-dr-sofora-taher {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 334px;
+    height: 28px;
+    top: 1px;
+    left: 0;
+    color: #045d04;
+    font-family: Vazirmatn, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .flex-row-ae {
+    position: relative;
+    width: 1333px;
+    height: 27px;
+    margin: 66px 0 0 45px;
+    z-index: 5;
+  }
+  .next-month {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    top: 0;
+    left: 50%;
+    cursor: pointer;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    background: transparent;
+    border: none;
+    transform: translate(-775%, 0);
+    z-index: 5;
+  }
+  .next-month-5 {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+  }
+  .arrow-6 {
+    position: relative;
+    color: #000000;
+    font-family: Eater, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+  }
+  .previous-month {
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    top: 0;
+    left: 50%;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    transform: translate(666.09%, 0);
+    z-index: 4;
+  }
+  .arrow-7 {
+    position: relative;
+    color: #000000;
+    font-family: Eater, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+  }
+  .previous-month-8 {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+  }
+  .space {
+    position: relative;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+  }
+  .khordad {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 94px;
+    height: 24px;
+    top: 3px;
+    left: calc(50% - 53.5px);
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .guidance-calendar {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 3px;
+    left: 714px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .vector-9 {
+    position: relative;
+    width: 22px;
+    height: 21px;
+    margin: 1px 0 0 0;
+    background: url(./assets/images/a3cd34e5-a5fd-40ca-9096-7d5c72af7e65.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+  .frame-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 1440px;
+    margin: 53px 0 0 0;
+    z-index: 9;
+    overflow: auto hidden;
+  }
+  .group-b {
+    flex-shrink: 0;
+    position: relative;
+    width: 2784px;
+    height: 136px;
+    z-index: 10;
+    border-radius: 100px;
+  }
+  .rectangle-c {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 0;
+    left: 1530px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 51;
+    border-radius: 100px;
+  }
+  .rectangle-d {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1350px;
+    background: #d9d9d9;
+    z-index: 11;
+    border-radius: 100px;
+  }
+  .rectangle-e {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1260px;
+    background: #d9d9d9;
+    z-index: 12;
+    border-radius: 100px;
+  }
+  .rectangle-f {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1170px;
+    background: #d9d9d9;
+    z-index: 13;
+    border-radius: 100px;
+  }
+  .rectangle-10 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1080px;
+    background: #d9d9d9;
+    z-index: 14;
+    border-radius: 100px;
+  }
+  .rectangle-11 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1350px;
+    background: #d9d9d9;
+    z-index: 15;
+    border-radius: 100px;
+  }
+  .rectangle-12 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1080px;
+    background: #d9d9d9;
+    z-index: 16;
+    border-radius: 100px;
+  }
+  .rectangle-13 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1260px;
+    background: #d9d9d9;
+    z-index: 17;
+    border-radius: 100px;
+  }
+  .rectangle-14 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1170px;
+    background: #d9d9d9;
+    z-index: 18;
+    border-radius: 100px;
+  }
+  .rectangle-15 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1350px;
+    background: #d9d9d9;
+    z-index: 19;
+    border-radius: 100px;
+  }
+  .rectangle-16 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1080px;
+    background: #d9d9d9;
+    z-index: 20;
+    border-radius: 100px;
+  }
+  .rectangle-17 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 180px;
+    background: #d9d9d9;
+    z-index: 21;
+    border-radius: 100px;
+  }
+  .rectangle-18 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 90px;
+    background: #d9d9d9;
+    z-index: 22;
+    border-radius: 100px;
+  }
+  .rectangle-19 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 270px;
+    background: #d9d9d9;
+    z-index: 23;
+    border-radius: 100px;
+  }
+  .rectangle-1a {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 0;
+    background: #eaeaea;
+    z-index: 24;
+    border-radius: 100px;
+  }
+  .rectangle-1b {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 540px;
+    background: #eaeaea;
+    z-index: 25;
+    border-radius: 100px;
+  }
+  .rectangle-1c {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 450px;
+    background: #d9d9d9;
+    z-index: 26;
+    border-radius: 100px;
+  }
+  .rectangle-1d {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 630px;
+    background: #eaeaea;
+    z-index: 27;
+    border-radius: 100px;
+  }
+  .rectangle-1e {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 360px;
+    background: #d9d9d9;
+    z-index: 28;
+    border-radius: 100px;
+  }
+  .rectangle-1f {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 900px;
+    background: #d9d9d9;
+    z-index: 29;
+    border-radius: 100px;
+  }
+  .rectangle-20 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 810px;
+    background: #d9d9d9;
+    z-index: 30;
+    border-radius: 100px;
+  }
+  .rectangle-21 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 990px;
+    background: #d9d9d9;
+    z-index: 31;
+    border-radius: 100px;
+  }
+  .rectangle-22 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 720px;
+    background: #d9d9d9;
+    z-index: 32;
+    border-radius: 100px;
+  }
+  .rectangle-23 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1260px;
+    background: #eaeaea;
+    z-index: 33;
+    border-radius: 100px;
+  }
+  .rectangle-24 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1170px;
+    background: #eaeaea;
+    z-index: 34;
+    border-radius: 100px;
+  }
+  .rectangle-25 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1350px;
+    background: #008000;
+    z-index: 35;
+    border-radius: 100px;
+  }
+  .rectangle-26 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1080px;
+    background: #d9d9d9;
+    z-index: 36;
+    border-radius: 100px;
+  }
+  .rectangle-27 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1440px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 37;
+    border-radius: 100px;
+  }
+  .rectangle-28 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1620px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 38;
+    border-radius: 100px;
+  }
+  .rectangle-29 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1890px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 39;
+    border-radius: 100px;
+  }
+  .rectangle-2a {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1800px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 40;
+    border-radius: 100px;
+  }
+  .rectangle-button {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1980px;
+    cursor: pointer;
+    background: rgba(217, 217, 217, 0.54);
+    border: none;
+    z-index: 41;
+    border-radius: 100px;
+  }
+  .rectangle-2b {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 1710px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 42;
+    border-radius: 100px;
+  }
+  .rectangle-2c {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2250px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 43;
+    border-radius: 100px;
+  }
+  .rectangle-2d {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2160px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 44;
+    border-radius: 100px;
+  }
+  .rectangle-2e {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2340px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 45;
+    border-radius: 100px;
+  }
+  .rectangle-2f {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2070px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 46;
+    border-radius: 100px;
+  }
+  .rectangle-30 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2610px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 47;
+    border-radius: 100px;
+  }
+  .rectangle-31 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2520px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 48;
+    border-radius: 100px;
+  }
+  .rectangle-32 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2700px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 49;
+    border-radius: 100px;
+  }
+  .rectangle-33 {
+    position: absolute;
+    width: 84px;
+    height: 135px;
+    top: 1px;
+    left: 2430px;
+    background: rgba(217, 217, 217, 0.54);
+    z-index: 50;
+    border-radius: 100px;
+  }
+  .saheshanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2708px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 52;
+  }
+  .saheshanbe-34 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1448px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 54;
+  }
+  .panjshanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2528px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 56;
+  }
+  .panjshanbe-35 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1898px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 57;
+  }
+  .panjshanbe-36 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1268px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 58;
+  }
+  .panjshanbe-37 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 638px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 59;
+  }
+  .charshanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1988px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 61;
+  }
+  .charshanbe-38 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1358px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 62;
+  }
+  .charshanbe-39 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 728px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 63;
+  }
+  .doshanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2168px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 64;
+  }
+  .doshanbe-3a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 908px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 66;
+  }
+  .yekshanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2258px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 67;
+  }
+  .shanbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2348px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 70;
+  }
+  .shanbe-3b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1718px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 71;
+  }
+  .shanbe-3c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1088px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 72;
+  }
+  .jombe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2438px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 73;
+  }
+  .jombe-3d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 1178px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 75;
+  }
+  .charshanbe-3e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 2618px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 76;
+  }
+  .shanbe-3f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 458px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 78;
+  }
+  .saheshanbe-40 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 188px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 81;
+  }
+  .charshanbe-41 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 38px;
+    left: 98px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 82;
+  }
+  .saheshanbe-42 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 2078px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 53;
+  }
+  .panjshanbe-43 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 8px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 60;
+  }
+  .doshanbe-44 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 1538px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 65;
+  }
+  .yekshanbe-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 1628px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 68;
+  }
+  .yekshanbe-46 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 998px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 69;
+  }
+  .jombe-47 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 1808px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 74;
+  }
+  .jombe-48 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 548px;
+    color: #9b9a9a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 77;
+  }
+  .doshanbe-49 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 39px;
+    left: 278px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 80;
+  }
+  .saheshanbe-4a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 40px;
+    left: 818px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 55;
+  }
+  .day-of-week {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    top: 40px;
+    left: 368px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.997px;
+    text-align: center;
+    z-index: 79;
+  }
+  .flex-row-ca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 139px;
+    height: 24px;
+    margin: 90px 0 0 651px;
+    z-index: 85;
+  }
+  .select-time {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 113px;
+    height: 24px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 84;
+  }
+  .fluent-mdl-date-time-mirrored {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 85;
+    overflow: hidden;
+  }
+  .vector-4b {
+    position: relative;
+    width: 22.5px;
+    height: 24px;
+    margin: 0 0 0 1.5px;
+    background: url(./assets/images/45acf9ce-ecc7-4e48-a824-475f55f0877a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 86;
+  }
+  .flex-row-fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1280px;
+    height: 50px;
+    margin: 52px 0 0 80px;
+    z-index: 93;
+  }
+  .rectangle-4c {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffcfc;
+    border: 1px solid #008000;
+    z-index: 93;
+    border-radius: 15px;
+  }
+  .time-16-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 125;
+  }
+  .rectangle-4d {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffcfc;
+    border: 1px solid #008000;
+    z-index: 92;
+    border-radius: 15px;
+  }
+  .time-16-00 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 96;
+  }
+  .rectangle-4e {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffcfc;
+    border: 1px solid #008000;
+    z-index: 91;
+    border-radius: 15px;
+  }
+  .time-15-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 95;
+  }
+  .rectangle-4f {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffcfc;
+    border: 1px solid #008000;
+    z-index: 90;
+    border-radius: 15px;
+  }
+  .time-15-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 45px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 97;
+  }
+  .rectangle-50 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffcfc;
+    border: 1px solid #008000;
+    z-index: 89;
+    border-radius: 15px;
+  }
+  .time-15-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 113;
+  }
+  .rectangle-51 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #008000;
+    border: 1px solid #008000;
+    z-index: 88;
+    border-radius: 15px;
+  }
+  .time-15-00 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 112;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1280px;
+    height: 50px;
+    margin: 20px 0 0 80px;
+    z-index: 103;
+  }
+  .rectangle-52 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 103;
+    border-radius: 15px;
+  }
+  .time-17-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 120;
+  }
+  .rectangle-53 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 102;
+    border-radius: 15px;
+  }
+  .time-17-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 41px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 122;
+  }
+  .rectangle-54 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 101;
+    border-radius: 15px;
+  }
+  .time-17-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 121;
+  }
+  .rectangle-55 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 100;
+    border-radius: 15px;
+  }
+  .time-17-00 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 45px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 123;
+  }
+  .rectangle-56 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 99;
+    border-radius: 15px;
+  }
+  .time-16-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 41px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 124;
+  }
+  .rectangle-57 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #fffdfd;
+    border: 1px solid #008000;
+    z-index: 98;
+    border-radius: 15px;
+  }
+  .time-16-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 39px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 111;
+  }
+  .flex-row-bc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1280px;
+    height: 50px;
+    margin: 24px 0 0 82px;
+    z-index: 110;
+  }
+  .rectangle-58 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 110;
+    border-radius: 15px;
+  }
+  .time-19-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 40px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 114;
+  }
+  .rectangle-59 {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 109;
+    border-radius: 15px;
+  }
+  .time-19-00 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 36px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 115;
+  }
+  .rectangle-5a {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 108;
+    border-radius: 15px;
+  }
+  .time-18-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 37px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 116;
+  }
+  .rectangle-5b {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 107;
+    border-radius: 15px;
+  }
+  .time-18-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 45px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 117;
+  }
+  .rectangle-5c {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 106;
+    border-radius: 15px;
+  }
+  .time-18-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 37px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 118;
+  }
+  .rectangle-5d {
+    flex-shrink: 0;
+    position: relative;
+    width: 193px;
+    height: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #008000;
+    z-index: 105;
+    border-radius: 15px;
+  }
+  .time-18-00 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    top: 13px;
+    left: 37px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 119;
+  }
+  .flex-row-5e {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1280px;
+    height: 61px;
+    margin: 64px 0 0 82px;
+    z-index: 127;
+  }
+  .rectangle-5f {
+    flex-shrink: 0;
+    position: relative;
+    width: 629px;
+    height: 61px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 0.5px solid #008000;
+    z-index: 127;
+    border-radius: 15px;
+  }
+  .next-step {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 312px;
+    height: 45px;
+    top: 15.5px;
+    left: 158.5px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    z-index: 129;
+  }
+  .rectangle-60 {
+    flex-shrink: 0;
+    position: relative;
+    width: 629px;
+    height: 61px;
+    cursor: pointer;
+    background: #008000;
+    border: none;
+    z-index: 126;
+    border-radius: 15px;
+  }
+  .first-empty-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 312px;
+    height: 45px;
+    top: 16px;
+    left: 159px;
+    color: #fffdfd;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    z-index: 128;
+  }
+  .frame-61 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 1441px;
+    margin: 68px 0 0 -1px;
+    z-index: 146;
+  }
+  .rectangle-62 {
+    flex-shrink: 0;
+    position: relative;
+    width: 1441px;
+    height: 500px;
+    background: #bcffba;
+    z-index: 147;
+  }
+  .untitled-63 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 174px;
+    height: 92px;
+    top: 0;
+    left: 1196px;
+    background: url(./assets/images/007dd99375a8bbc0be17a59e9a82ac42a24aa57e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 148;
+  }
+  .image {
+    flex-shrink: 0;
+    position: absolute;
+    width: 64px;
+    height: 88px;
+    top: 374px;
+    left: 0;
+    background: url(./assets/images/e4af9ec8114f9510afcb0b325a22ad188ebd750e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 149;
+  }
+  .contact-us {
+    flex-shrink: 0;
+    position: absolute;
+    width: 262px;
+    height: 381px;
+    top: 39px;
+    left: 516px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    z-index: 150;
+  }
+  .contact-us-64 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.784px;
+    text-align: right;
+  }
+  .contact-us-65 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.784px;
+    text-align: right;
+  }
+  .contact-us-66 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+  }
+  .contact-us-67 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    text-decoration: underline;
+  }
+  .contact-us-68 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+  }
+  .contact-us-69 {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: right;
+    text-decoration: underline;
+  }
+  .useful-links {
+    flex-shrink: 0;
+    position: absolute;
+    width: 207px;
+    height: 393px;
+    top: 39px;
+    left: 179px;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: justified;
+    z-index: 151;
+  }
+  .useful-links-6a {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.784px;
+    text-align: justified;
+  }
+  .useful-links-6b {
+    position: relative;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.784px;
+    text-align: justified;
+  }
+  .divider {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: absolute;
+    width: 112.078px;
+    height: 198.008px;
+    top: 147.036px;
+    left: 703.994px;
+    color: rgba(0, 0, 0, 0.48);
+    font-family: Yinmar, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.24px;
+    text-align: right;
+    transform: rotate(89.98deg);
+    z-index: 152;
+  }
+  .phone-icon {
+    flex-shrink: 0;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 258px;
+    left: 788px;
+    z-index: 153;
+    overflow: hidden;
+  }
+  .vector-6c {
+    position: relative;
+    width: 20.543px;
+    height: 20.543px;
+    margin: 3.5px 0 0 3.5px;
+    background: url(./assets/images/039cd086-4be7-4900-bf4b-3dca931c08eb.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 154;
+  }
+  .location-icon {
+    flex-shrink: 0;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 137px;
+    left: 786px;
+    z-index: 155;
+    overflow: hidden;
+  }
+  .vector-6d {
+    position: relative;
+    width: 19.5px;
+    height: 23.691px;
+    margin: 2.25px 0 0 4.25px;
+    background: url(./assets/images/10e51c28-ff03-4ed8-a617-a63bb6bfa621.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 156;
+  }
+  .email-icon {
+    flex-shrink: 0;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 350px;
+    left: 786px;
+    background: url(./assets/images/ce6c9560-9a72-4fcf-a6ed-4b3a7a831d23.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 157;
+    overflow: hidden;
+  }
+  .description {
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    width: 448px;
+    height: 227px;
+    top: 104px;
+    left: 912px;
+    color: #3c3a3a;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    text-align: justified;
+    z-index: 158;
+  }
+  
