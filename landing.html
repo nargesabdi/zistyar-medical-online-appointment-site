@@ -14,6 +14,7 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="landing.css" />
   <link href="bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -46,17 +47,32 @@
             <a class="nav-link" href=http://127.0.0.1:5500/doctors.html>نوبت دهی</a>
           </li>
         </ul>
-        <button
-          class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd drdr-button drdr-button-primary login-button null  css-opneke"
-          colorvariant="primary" dssize="medium" dsvariant="outline" id="Login_click" aria-label="Login or View Profile"
-          type="button" fdprocessedid="08x166"><span class="MuiButton-startDecorator css-zcktug"><!--$--><!--/$--><svg
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="drdr-icon" width="32" height="32">
-              <path
-                d="M12 11.5A4.5 4.5 0 1 1 16.5 7a4.51 4.51 0 0 1-4.499 4.5H12zm0-8A3.5 3.5 0 1 0 15.5 7 3.5 3.5 0 0 0 12 3.5zm6 18a.5.5 0 0 1-.5-.5v-2a3.52 3.52 0 0 0-3.499-3.5H10A3.5 3.5 0 0 0 6.5 19v2a.5.5 0 0 1-1 0v-2a4.51 4.51 0 0 1 4.499-4.5H14a4.51 4.51 0 0 1 4.5 4.499V21a.5.5 0 0 1-.5.5z">
-              </path>
-            </svg></span>
+        <button type="button"
+          class="btn btn-success  MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd drdr-button drdr-button-primary login-button null  css-opneke"
+          data-bs-toggle="modal" data-bs-target="#exampleModal" colorvariant="green" dssize="medium" dsvariant="outline"
+          id="Login_click" aria-label="Login or View Profile" type="button" fdprocessedid="08x166">
           <div class="css-16evcoq">ورود / ثبت نام</div>
         </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="fixed top-0 bottom-0 left-0 right-0 flex items-end md:pb-14 z-infinity md:pt-20 md:justify-center md:items-start bg-slate-900 bg-opacity-60" id="modal" style="opacity: 1;"><div class="bg-white w-full flex flex-col rounded-tr-xl rounded-tl-xl md:!rounded-lg md:w-[28rem] max-h-screen overflow-auto" style="opacity: 1; transform: none;"><div class="h-1 mx-auto mt-4 rounded-full w-11 md:hidden bg-slate-300"></div><div class="p-5 flex-grow overflow-auto no-scroll"><div class="flex flex-col justify-center h-full space-y-5"><form class="flex flex-col space-y-5"><div class="flex flex-col space-y-2"><span class="text-lg font-black">ورود/ثبت نام</span><span class="text-sm">لطفا شماره موبايل خود را وارد کنيد</span></div><div class="flex flex-col space-y-2 w-full border-slate-300 outline-primary"><span class="text-sm font-medium text-black">شماره موبایل</span><div class="relative w-full border-inherit outline-inherit"><input autocomplete="off" class="rounded-lg border border-solid border-inherit outline-inherit w-full transition-all p-4 h-12 text-sm" placeholder="09" type="tel" inputmode="numeric" value="" style="direction: ltr;" data-listener-added_9493a86d="true"></div><span class="text-xs">مثال:*******0912</span></div><button class="flex items-center justify-center rounded-lg font-bold gap-1 transition-all bg-primary border border-primary text-white disabled:bg-slate-200 disabled:border-slate-200 disabled:text-slate-500 px-4 h-12 min-h-[3rem] text-sm" disabled="" type="submit">ادامه</button><span class="font-medium text-center text-[0.7rem] md:text-xs">ورود شما به معنای پذیرش <a href="https://www.paziresh24.com/home/rules/" target="_blank" class="text-blue-700">شرایط پذیرش24</a> و <a href="https://www.paziresh24.com/home/privacy-policy/" target="_blank" class="text-blue-700">قوانین حریم‌خصوصی</a> است.</span></form></div></div></div></div> -->
+
+
         <!-- <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
@@ -94,128 +110,141 @@
         موفق</span><span class="doctors">+25,000 <br />پزشک</span>
     </div>
     <div class="flex-row-fff">
-    <div class="flex-row-d-75">
-        <section id="calleges" class="colleges section-padding">
-          <div class="container-01">
-            <!-- <div class="row">
+      <div class="flex-row-d-75">
+        <!-- <section id="calleges" class="colleges section-padding"> -->
+        <div class="container-01">
+          <!-- <div class="row">
               <div class="col-md-12"> -->
-                <div class="section-header text-center pb-5">
-                  <a class="all-doctors" href="http://127.0.0.1:5500/doctors.html">همه‌ پزشکان ></a>
-                  <div class="list-doctors-online-appointment-system">
-                    <span class="list-doctors">لیست پزشکان<br /></span><span class="online-appointment-system">با
-                      استفاده
-                      از سیستم پذیرش آنلاین ما ، هیچ نیازی به نوبت قبلی نیست</span>
-                  </div>
-                </div>
-              <!-- </div>
-            </div> -->
-              <!-- کارت های پزشکان  -->
-              <!-- <div class="row"> -->
-                <div class="col-12 col-md-12 col-lg-2">
-                  <!-- <div class="card text-dark text-center bg-white pb-2"> -->
-                  <div class="card-body ">
-                    <div class="group-3">
-                      <div class="rectangle-4"></div>
-                      <span class="text-10">۴.۱</span>
-                      <div class="vector-5"></div>
-                      <div class="mask-group"></div>
-                      <div class="doctor-mahnaz-akbari">
-                        <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
-                            class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
-                        <p class="load">
-                          <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
-                          <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
-                            دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
-                            class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
-                        </p>
-                        <!-- <div class="rectangle-7"> -->
-                        <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
-                        <!-- <span class="book-appointment">دریافت نوبت</span> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-2">
-                  <!-- <div class="card text-dark text-center bg-white pb-2"> -->
-                  <div class="card-body ">
-                    <div class="group-3">
-                      <div class="rectangle-4"></div>
-                      <span class="text-10">۴.۱</span>
-                      <div class="vector-5"></div>
-                      <div class="mask-group"></div>
-                      <div class="doctor-mahnaz-akbari">
-                        <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
-                            class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
-                        <p class="load">
-                          <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
-                          <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
-                            دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
-                            class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
-                        </p>
-                        <!-- <div class="rectangle-7"> -->
-                        <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
-                        <!-- <span class="book-appointment">دریافت نوبت</span> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-2">
-                  <!-- <div class="card text-dark text-center bg-white pb-2"> -->
-                  <div class="card-body ">
-                    <div class="group-3">
-                      <div class="rectangle-4"></div>
-                      <span class="text-10">۴.۱</span>
-                      <div class="vector-5"></div>
-                      <div class="mask-group"></div>
-                      <div class="doctor-mahnaz-akbari">
-                        <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
-                            class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
-                        <p class="load">
-                          <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
-                          <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
-                            دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
-                            class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
-                        </p>
-                        <!-- <div class="rectangle-7"> -->
-                        <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
-                        <!-- <span class="book-appointment">دریافت نوبت</span> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-2">
-                  <!-- <div class="card text-dark text-center bg-white pb-2"> -->
-                  <div class="card-body ">
-                    <div class="group-3">
-                      <div class="rectangle-4"></div>
-                      <span class="text-10">۴.۱</span>
-                      <div class="vector-5"></div>
-                      <div class="mask-group"></div>
-                      <div class="doctor-mahnaz-akbari">
-                        <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
-                            class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
-                        <p class="load">
-                          <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
-                          <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
-                            دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
-                            class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
-                        </p>
-                        <!-- <div class="rectangle-7"> -->
-                        <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
-                        <!-- <span class="book-appointment">دریافت نوبت</span> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="section-header text-center pb-5">
+            <a class="all-doctors" href="http://127.0.0.1:5500/doctors.html">همه‌ پزشکان ></a>
+            <div class="list-doctors-online-appointment-system">
+              <span class="list-doctors">لیست پزشکان<br /></span><span class="online-appointment-system">با
+                استفاده
+                از سیستم پذیرش آنلاین ما ، هیچ نیازی به نوبت قبلی نیست</span>
             </div>
-        </section>
+          </div>
+          <!-- </div>
+            </div> -->
+          <!-- کارت های پزشکان  -->
+          <!-- <div class="row"> -->
+
+
+
+          <div class="col-12 col-md-12 col-lg-2">
+
+            <!-- <div class="card text-dark text-center bg-white pb-2"> -->
+            <div class="flex-row-d-75">
+              <!-- <div class="card-body "> -->
+              <div class="group-3">
+                <div class="rectangle-4"></div>
+                <span class="text-10">۴.۱</span>
+                <div class="vector-5"></div>
+                <div class="mask-group"></div>
+                <div class="doctor-mahnaz-akbari">
+                  <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
+                      class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
+                  <p class="load">
+                    <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
+                    <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
+                      دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
+                      class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
+                  </p>
+                  <!-- <div class="rectangle-7"> -->
+                  <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
+                  <!-- <span class="book-appointment">دریافت نوبت</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+          <div class="col-12 col-md-12 col-lg-2">
+            <!-- <div class="card text-dark text-center bg-white pb-2"> -->
+            <div class="flex-row-d-75">
+              <div class="card-body ">
+                <div class="group-3">
+                  <div class="rectangle-4"></div>
+                  <span class="text-10">۴.۱</span>
+                  <div class="vector-5"></div>
+                  <div class="mask-group"></div>
+                  <div class="doctor-mahnaz-akbari">
+                    <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
+                        class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
+                    <p class="load">
+                      <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
+                      <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
+                        دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
+                        class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
+                    </p>
+                    <!-- <div class="rectangle-7"> -->
+                    <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
+                    <!-- <span class="book-appointment">دریافت نوبت</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-2">
+            <!-- <div class="card text-dark text-center bg-white pb-2"> -->
+            <div class="flex-row-d-75">
+              <div class="card-body ">
+                <div class="group-3">
+                  <div class="rectangle-4"></div>
+                  <span class="text-10">۴.۱</span>
+                  <div class="vector-5"></div>
+                  <div class="mask-group"></div>
+                  <div class="doctor-mahnaz-akbari">
+                    <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
+                        class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
+                    <p class="load">
+                      <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
+                      <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
+                        دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
+                        class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
+                    </p>
+                    <!-- <div class="rectangle-7"> -->
+                    <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
+                    <!-- <span class="book-appointment">دریافت نوبت</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-2">
+            <!-- <div class="card text-dark text-center bg-white pb-2"> -->
+            <div class="flex-row-d-75">
+              <div class="card-body ">
+                <div class="group-3">
+                  <div class="rectangle-4"></div>
+                  <span class="text-10">۴.۱</span>
+                  <div class="vector-5"></div>
+                  <div class="mask-group"></div>
+                  <div class="doctor-mahnaz-akbari">
+                    <h3 class="card-title"><span class="doctor-mahnaz-akbari-6">دکتر مهناز اکبری<br /></span><span
+                        class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span></h3>
+                    <p class="load">
+                      <!-- <span class="cardiology-vascular-specialist">تخصص قلب و عروق<br /></span> -->
+                      <span class="tehran-khaniabad-no-daneshgah-street">تهران ، خانی آباد نو ، کوچه
+                        دانشگاه<br /></span><span class="first-appointment">اولین نوبت : </span><span
+                        class="thursday-30-khordad">چهارشنبه 30 خرداد</span>
+                    </p>
+                    <!-- <div class="rectangle-7"> -->
+                    <button class="book-appointment btn btn-success text-white "> دریافت نوبت</button>
+                    <!-- <span class="book-appointment">دریافت نوبت</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </section> -->
       </div>
     </div>
 
 
 
+
     <!-- <div class="frame-2"> -->
-           <!-- <div class="group-3">
+    <!-- <div class="group-3">
               <div class="rectangle-4"></div>
               <span class="text-10">۴.۱</span>
               <div class="vector-5"></div>
@@ -307,15 +336,16 @@
               <div class="rectangle-3d"></div>
               <span class="get-appointment-3e">دریافت نوبت</span>
             </div>-->
-           <!-- </div>  -->
+    <!-- </div>  -->
     <div class="flex-row">
       <div class="row">
         <div class="col-md-12">
           <div class="section-header text-center pb-5">
             <a class="all-doctors" href="http://127.0.0.1:5500/doctors.html">همه‌ تخصص ها ></a>
             <div class="list-doctors-online-appointment-system">
-              <span class="list-doctors">لیست تخصص ها<br /></span><span class="online-appointment-system">تیمی از متخصصین برجسته با سابقه درخشان در عرصه های بین المللی و دارای گواهینامه معتبر
-                </span>
+              <span class="list-doctors">لیست تخصص ها<br /></span><span class="online-appointment-system">تیمی از
+                متخصصین برجسته با سابقه درخشان در عرصه های بین المللی و دارای گواهینامه معتبر
+              </span>
             </div>
           </div>
         </div>
@@ -337,23 +367,36 @@
       <div class="image-47"></div>
       <div class="image-48"></div>
     </div>
-    <span class="medical-specialties">بیماری های داخلی کرونا و بیماری های عفونی متخصص کودکان متخصص قلب متخصص
-      گوش متخصص روانپزشک متخصص پوست و مو متخصص ارتوپدی پزشک عمومی ژنتیک</span>
-      <span class="medical-specialties">بیماری های داخلی</span>
-      <span class="medical-specialties">کرونا و بیماری</span>
+    <span class="medical-specialties">بیماری&zwnj;های&zwnj;داخلی کروناوبیماری&zwnj;های&zwnj;عفونی متخصص&zwnj;کودکان
+      متخصص&zwnj;قلب&zwnj; متخصص
+      &zwnj;گوش متخصص&zwnj;روانپزشک متخصص&zwnj;پوست&zwnj;ومو متخصص&zwnj;ارتوپدی پزشک&zwnj;عمومی ژنتیک</span>
+    <span class="medical-specialties"></span>
+    <span class="medical-specialties"></span>
     <div class="flex-row-49">
-      <div class="medical-centers-4a">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <a class="all-doctors" href="http://127.0.0.1:5500/doctors.html"> مشاهده همه ></a>
+            <div class="list-doctors-online-appointment-system">
+              <span class="list-doctors">مراکز درمانی<br /></span><span class="online-appointment-system">دریافت خدمات
+                از مراکز درمانی در سراسر کشور
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="medical-centers-4a">
         <span class="medical-centers-4b">مراکز درمانی<br /></span><span class="medical-centers-4c">دریافت خدمات از
           مراکز درمانی در سراسر کشور</span>
       </div>
-      <span class="medical-centers-link">مشاهده ی همه ></span>
+      <span class="medical-centers-link">مشاهده ی همه ></span> -->
+      </div>
     </div>
     <div class="flex-row-4d">
       <div class="rectangle-4e">
         <div class="image-4f"></div>
         <div class="imaging-center">
-          <span class="center-imaging">مرکز تصویربرداری</span><span class="line-break"> <br /></span><span
-            class="center-imaging-50">95 مرکز تصویربرداری</span>
+          <span class="center-imaging">مرکز تصویربرداری</span><span class="line-break"> <br /></span>
+          <span class="center-imaging-50"> مرکز تصویربرداری 95</span>
         </div>
       </div>
       <div class="rectangle-51">
@@ -480,7 +523,10 @@
     </div>
     <div class="frame-8a"></div>
   </div>
+  <script src="landing.js"></script>
   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
