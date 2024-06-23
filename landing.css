@@ -161,23 +161,17 @@ button {
   align-items: flex-end;
 
 }
+
+
+
 .modal-dialog-scrollable .modal-content {
   max-height: 100%;
   overflow: hidden;
-  z-index: 9999;
 }
-.modal-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  color: var(--bs-modal-color);
-  pointer-events: auto;
-  background-color: var(--bs-modal-bg);
-  background-clip: padding-box;
-  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
-  border-radius: var(--bs-modal-border-radius);
-  outline: 0;
+
+.fade {
+  transition: opacity 0.15s linear;
+  z-index: 99;
 }
 
 .main-container {
@@ -187,6 +181,23 @@ button {
   margin: 0 auto;
   background: #ffffff;
   overflow: hidden;
+  
+}
+.modal-body{
+  direction: rtl;
+  font-family: vazir;
+  font-size: 15px;
+}
+.btn-close{
+  direction: ltr;
+}
+.input-message0{
+  direction: rtl;
+}
+#mobilenumber{
+  text-align: left;
+  font-family: b nazanin;
+  font-size: 20px;
 }
 
 .flex-row-a {
@@ -2594,14 +2605,16 @@ button {
   position: relative;
   width: 1586px;
   height: 37px;
-  margin: 14px 0 0 0;
-  color: #000000;
-  font-family: Manrope, var(--default-font-family);
-  font-size: 16.5px;
+  margin: 15px 20px 50px 0;
+  color: #444343;
+  font-family: vazir, var(--default-font-family);
+  font-size: 14.5px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 20px;
   text-align: right;
   z-index: 70;
+ right: 16px;
+  word-spacing: 55px; 
 }
 
 .flex-row-af {
@@ -2651,8 +2664,8 @@ button {
   height: 208px;
   top: 41px;
   left: 189px;
-  font-family: Manrope, var(--default-font-family);
-  font-size: 20px;
+  font-family: vazir, var(--default-font-family);
+  font-size: 15px;
   font-weight: 400;
   line-height: 27.32px;
   text-align: right;
@@ -2662,9 +2675,9 @@ button {
 .user-registration-text {
   position: relative;
   color: #065482;
-  font-family: Bahianita, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 28.8px;
   text-align: right;
 }
@@ -2672,7 +2685,7 @@ button {
 .line-break-7a {
   position: relative;
   color: #046c04;
-  font-family: B Nazanin, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -2682,11 +2695,12 @@ button {
 .membership-benefits {
   position: relative;
   color: rgba(0, 0, 0, 0.6);
-  font-family: B Nazanin, var(--default-font-family);
-  font-size: 24px;
+  font-family: vazir, var(--default-font-family);
+  font-size: 19px;
   font-weight: 400;
   line-height: 28.8px;
   text-align: right;
+  direction: rtl;
 }
 
 .rectangle-7b {
@@ -2707,10 +2721,10 @@ button {
   position: absolute;
   width: 156px;
   height: 45px;
-  top: 10px;
+  top: 12px;
   left: 14px;
   color: #ffffff;
-  font-family: Manrope, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
   font-weight: 700;
   line-height: 32.784px;
@@ -2735,8 +2749,8 @@ button {
   width: 335px;
   height: 139px;
   margin: 39px 0 0 96px;
-  font-family: Manrope, var(--default-font-family);
-  font-size: 20px;
+  font-family: vazir, var(--default-font-family);
+  font-size: 15px;
   font-weight: 400;
   line-height: 27.32px;
   text-align: justified;
@@ -2746,9 +2760,9 @@ button {
 .doctor-registration-text {
   position: relative;
   color: #00c395;
-  font-family: Bahianita, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 28.8px;
   text-align: justified;
 }
@@ -2756,21 +2770,23 @@ button {
 .membership-benefits-7e {
   position: relative;
   color: #046c04;
-  font-family: B Nazanin, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
   text-align: justified;
 }
 
+
 .rectangle-7f {
   position: relative;
   color: rgba(0, 0, 0, 0.6);
-  font-family: B Nazanin, var(--default-font-family);
-  font-size: 26px;
+  font-family: vazir, var(--default-font-family);
+  font-size: 19px;
   font-weight: 400;
-  line-height: 31.2px;
+  line-height: 28.8px;
   text-align: justified;
+  direction: rtl;
 }
 
 .doctor-registration-80 {
@@ -2790,10 +2806,10 @@ button {
   position: absolute;
   width: 156px;
   height: 45px;
-  top: 10px;
-  left: 14px;
+  top: 13px;
+  left: 10px;
   color: #ffffff;
-  font-family: Manrope, var(--default-font-family);
+  font-family: vazir, var(--default-font-family);
   font-size: 24px;
   font-weight: 700;
   line-height: 32.784px;
@@ -2801,8 +2817,239 @@ button {
   white-space: nowrap;
   z-index: 92;
 }
+.rectangle-d7 {
+  position: relative;
+  width: 100%;
+  height: 12%;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #bcffba;
+  z-index: 1000;
+  background-size: cover;
+  
 
-.untitled-82 {
+}
+.untitled-d8 {
+  position: absolute;
+  width: 174px;
+  height: 92px;
+  top: 10px;
+  left: 1231px;
+  background: url(./assets/images/007dd99375a8bbc0be17a59e9a82ac42a24aa57e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 191;
+}
+.contact-us {
+  position: absolute;
+  width: 262px;
+  height: 381px;
+  top: 49px;
+  left: 551px;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: right;
+  z-index: 193;
+}
+.contact-us-d9 {
+  position: relative;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.784px;
+  text-align: right;
+  
+}
+.contact-us-da {
+  position: relative;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.784px;
+  text-align: right;
+}
+.contact-us-db {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.contact-us-dc {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: right;
+  text-decoration: underline;
+  direction: rtl;
+}
+.contact-us-dd {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.contact-us-de {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: right;
+  text-decoration: underline;
+  direction: rtl;
+}
+.useful-links {
+  position: absolute;
+  width: 207px;
+  height: 393px;
+  top: 49px;
+  left: 214px;
+  font-family: vazir, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: justified;
+  z-index: 194;
+  direction: rtl;
+}
+.useful-links-df {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.784px;
+  text-align: justified;
+}
+.useful-links-e0 {
+  position: relative;
+  color: #000000;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.784px;
+  text-align: justify;
+  direction: rtl;
+}
+.useful-links-e1 {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 448px;
+  height: 227px;
+  top: 114px;
+  left: 947px;
+  color: #3c3a3a;
+  font-family: vazir, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  text-align: justify;
+  z-index: 201;
+  direction: rtl;
+}
+.location-filled {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 120px;
+  left: 821px;
+  z-index: 198;
+  overflow: hidden;
+  direction: rtl;
+}
+.vector-e2 {
+  position: relative;
+  width: 19.5px;
+  height: 23.691px;
+  margin: 2.25px 0 0 4.25px;
+  background: url(./assets/images/c2e01539-a7e9-4b4d-b1f7-f917ddf30b38.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 199;
+}
+.phone-fill {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 230px;
+  left: 823px;
+  z-index: 196;
+  overflow: hidden;
+}
+.line-break-86 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  /* width: 112.078px; */
+  height: 186.008px;
+  top: 130px;
+  left: 660px;
+  color: rgba(0, 0, 0, 0.48);
+  font-family: Yinmar, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.24px;
+  text-align: right;
+  transform: rotate(89.98deg);
+  z-index: 66;
+}
+.vector-e3 {
+  position: relative;
+  width: 20.543px;
+  height: 20.543px;
+  margin: 3.5px 0 0 3.5px;
+  background: url(./assets/images/f059643e-589a-47c2-9e8f-74b6d8af3dd0.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 197;
+}
+.email-solid {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 300px;
+  left: 821px;
+  background: url(./assets/images/4a022119-9d70-4366-9bb8-2f67ab3164bb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 200;
+  overflow: hidden;
+}
+.image-e4 {
+  position: absolute;
+  width: 64px;
+  height: 88px;
+  top: 380px;
+  left: 35px;
+  background: url(./assets/images/e4af9ec8114f9510afcb0b325a22ad188ebd750e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 192;
+}
+
+/* .untitled-82 {
   position: relative;
   width: 1441px;
   height: 500px;
@@ -3041,4 +3288,4 @@ button {
     background: url(./assets/images/25572a63-db40-4c11-8c91-bb3bd21b7c36.png)
       no-repeat center;
     background-size: cover;
-  } */
+  } */ 

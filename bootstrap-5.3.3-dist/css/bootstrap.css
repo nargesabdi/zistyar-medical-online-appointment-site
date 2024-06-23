@@ -5557,11 +5557,11 @@ textarea.form-control-lg {
 }
 
 .modal-backdrop {
-  --bs-backdrop-zindex: 1050;
-  --bs-backdrop-bg: #000;
+  --bs-backdrop-zindex: 1025;
+  --bs-backdrop-bg: #2d2c2c;
   --bs-backdrop-opacity: 0.5;
   position: fixed;
-  top: 0;
+  top: -20px;
   left: 0;
   z-index: var(--bs-backdrop-zindex);
   width: 100vw;
@@ -5583,21 +5583,25 @@ textarea.form-control-lg {
   border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
   border-top-left-radius: var(--bs-modal-inner-border-radius);
   border-top-right-radius: var(--bs-modal-inner-border-radius);
+  direction: rtl;
 }
 .modal-header .btn-close {
   padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);
   margin: calc(-0.5 * var(--bs-modal-header-padding-y)) calc(-0.5 * var(--bs-modal-header-padding-x)) calc(-0.5 * var(--bs-modal-header-padding-y)) auto;
+
 }
 
 .modal-title {
   margin-bottom: 0;
   line-height: var(--bs-modal-title-line-height);
+  
 }
 
 .modal-body {
   position: relative;
   flex: 1 1 auto;
   padding: var(--bs-modal-padding);
+ 
 }
 
 .modal-footer {
@@ -5611,6 +5615,7 @@ textarea.form-control-lg {
   border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
   border-bottom-right-radius: var(--bs-modal-inner-border-radius);
   border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+  direction: rtl;
 }
 .modal-footer > * {
   margin: calc(var(--bs-modal-footer-gap) * 0.5);
