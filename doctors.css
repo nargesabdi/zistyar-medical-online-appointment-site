@@ -643,11 +643,12 @@
   .mahboub-tarin-nazdik-tarin-nobat-azad-bishtar-nobat-mofe {
     position: relative;
     color: #666766;
-    font-family: Manrope, var(--default-font-family);
+    font-family: vazir, var(--default-font-family);
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     text-align: right;
+    word-spacing: 20px;
   }
   .takhass-va-foq-takhass {
     display: flex;
@@ -917,13 +918,15 @@
     top: 8px;
     left: calc(50% - 65px);
     color: #ffffff;
-    font-family: Manrope, var(--default-font-family);
+    font-family: vazir, var(--default-font-family);
     font-size: 16px;
     font-weight: 700;
     line-height: 27px;
     text-align: right;
     white-space: nowrap;
     z-index: 60;
+    border: none;
+    background-color: #1ba81b;
   }
   .rectangle-15 {
     position: absolute;
@@ -935,6 +938,7 @@
     z-index: 48;
     border-radius: 10px;
   }
+  
   .vizit-online {
     display: flex;
     align-items: flex-start;
@@ -952,6 +956,8 @@
     text-align: right;
     white-space: nowrap;
     z-index: 59;
+    border: none;
+    background-color: #1ba81b;
   }
   .bime {
     display: flex;
@@ -1160,6 +1166,7 @@
     text-align: right;
     white-space: nowrap;
     z-index: 46;
+    word-spacing: 77px;
   }
   .ellipse {
     position: absolute;
