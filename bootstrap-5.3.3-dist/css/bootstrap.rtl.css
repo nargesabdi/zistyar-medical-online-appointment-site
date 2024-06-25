@@ -5555,11 +5555,11 @@ textarea.form-control-lg {
 }
 
 .modal-backdrop {
-  --bs-backdrop-zindex: 1050;
-  --bs-backdrop-bg: #000;
+  --bs-backdrop-zindex: 1025;
+  --bs-backdrop-bg: #2d2c2c;
   --bs-backdrop-opacity: 0.5;
   position: fixed;
-  top: 0;
+  top: -20px;
   right: 0;
   z-index: var(--bs-backdrop-zindex);
   width: 100vw;

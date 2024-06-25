@@ -657,6 +657,7 @@
     font-weight: 500;
     line-height: 30px;
     text-align: right;
+    right: 30px;
   }
   .address-e {
     position: relative;
@@ -666,6 +667,7 @@
     font-weight: 500;
     line-height: 30px;
     text-align: right;
+    right: 25px;
   }
   .first-available-appointment {
     position: relative;
@@ -675,6 +677,8 @@
     font-weight: 500;
     line-height: 30px;
     text-align: right;
+   right: 25px;
+   
   }
   .address-f {
     position: relative;
@@ -684,6 +688,7 @@
     font-weight: 500;
     line-height: 30px;
     text-align: right;
+    right: 25px;
   }
   .line-break-10 {
     position: relative;
@@ -736,7 +741,7 @@
     position: relative;
     width: 18px;
     height: 19.999px;
-    margin: 2px 0 0 2.999px;
+    margin: 1px 0 0 1.999px;
     background: url(./assets/images/abb4c44d-5f7e-40bf-820a-9f3127e4d297.png)
       no-repeat center;
     background-size: 100% 100%;
@@ -774,13 +779,14 @@
   .get-appointment-14 {
     position: relative;
     color: #ffffff;
-    font-family: manrope, var(--default-font-family);
+    font-family: vazir, var(--default-font-family);
     font-size: 16px;
     font-weight: 500px;
     line-height: 30px;
     text-align: right;
    left: -8px;
-   margin-bottom: 50px;
+   margin-bottom: 5px;
+  
    
   }
   .arrow-icon {
@@ -818,11 +824,11 @@
     position: absolute;
     width: 32.721px;
     height: 79.289px;
-    top: 157px;
-    left: 892px;
+    top: 130.017px;
+    left: 850px;
     color: rgba(0, 0, 0, 0.4);
-    font-family: Manrope, var(--default-font-family);
-    font-size: 18px;
+    font-family: vazir, var(--default-font-family);
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
@@ -835,17 +841,18 @@
     justify-content: flex-end;
     position: absolute;
     width: 32.721px;
-    height: 79.289px;
-    top: 157.017px;
-    left: 1100.041px;
+    height: 99.289px;
+    top: 130.017px;
+    left: 1050.041px;
     color: rgba(0, 0, 0, 0.4);
-    font-family: Manrope, var(--default-font-family);
-    font-size: 18px;
+    font-family: vazir , var(--default-font-family);
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
     transform: rotate(90.52deg);
     z-index: 19;
+    
   }
   .tick-circle {
     position: absolute;
@@ -926,7 +933,51 @@
     text-align: right;
     white-space: nowrap;
     z-index: 18;
+    word-spacing: 15px;
   }
+  .user-rating1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 556px;
+    height: 24px;
+    top: 212px;
+    left: 520px;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 18;
+    word-spacing: 15px;
+    
+  }
+  .user-rating2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 556px;
+    height: 24px;
+    top: 212px;
+    left: 300px;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 18;
+    
+    
+  }
+
+
+
   .contact-info {
     display: flex;
     align-items: flex-start;
@@ -1138,6 +1189,7 @@
     font-weight: 500;
     line-height: 30px;
     text-align: right;
+    
   }
   .price-details {
     position: relative;
